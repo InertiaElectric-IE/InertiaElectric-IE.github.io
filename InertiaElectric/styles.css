@@ -215,7 +215,6 @@ body{
         padding: 2% 19%;
         font-size: 25px;
         font-family: merienda;
-    
     }
 
     /* About us */
@@ -278,3 +277,200 @@ body{
         background-position: center center;
     }
 
+
+    /*About us*/
+    
+
+    .box-areas p{
+    position: relative;
+    top: 100px;
+    }
+
+    .box-areas h2{
+        position: relative;
+        top: 100px;
+    }
+
+    .container{
+        position: relative;
+        top: 20px;
+       
+    
+    }
+
+    .randy{
+        position: relative;
+        top: 40px;
+    }
+
+    .orton{
+        position: relative;
+        top: 60px;
+    }
+
+    .tripleh{ 
+        position: relative;
+        top: 80px;
+    }
+
+/* GetStarted */
+
+.instructions{
+    position: relative;
+    top: 30px;
+    width: 99%;
+    height: 200%;
+}
+
+.momo{
+    position: relative;
+    bottom: -15px;
+}
+
+.momo h2{
+    position: relative;
+    left: 10px;
+    text-align: left;
+}
+
+.momo p{
+    position: relative;
+    left: 10px;
+    text-align: left;
+}
+
+.shajjan{
+    position: relative;
+    top: 70px;
+}
+
+.shajjan p{
+    position: relative;
+    left: 10px;
+    text-align: left;
+}
+
+.shajjan h2{
+    position: relative;
+    left: 10px;
+    text-align: left;
+}
+
+.shajjan h3{
+    position: relative;
+    left: 10px;
+    text-align: left;
+}
+
+.kaka{
+    position: relative;
+    bottom: 20px;
+}
+  
+.picture{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.table1{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.buses{
+    position: relative;
+    top: 100px;
+    bottom: 20px;
+}
+
+.buses p{
+    position: relative;
+    left: 10px;
+    text-align: left;
+}
+
+.buses h3{
+    position: relative;
+    left: 10px;
+    text-align: left;
+}
+
+.BUSpicture{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.table2{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.daniel{
+    position: relative;
+    text-align: left;
+    top: 10px;
+}
+
+.cloud9{
+    position: relative;
+    top: 150px;
+}
+
+.cloud9 h2{
+    position: relative;
+    left: 10px;
+    text-align: left; 
+}
+
+.cloud9 p{
+    position: relative;
+    left: 10px;
+    text-align: left; 
+}
+
+.anothersentence{
+    position: relative;
+    top: 10px;
+    text-align: left; 
+}
+
+.danielsimg{
+    position: relative;
+    left: 5px;
+    top: 10px;
+    
+}
+
+.naruto{
+    position: relative;
+    top: 10px;
+}
+
+.donut{
+    position: relative;
+    left: 5px;
+    top: 10px;
+    text-align: left;
+}
+
+.nope{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.finalpic{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.access{
+    position: relative;
+    top: 50px;
+    color: red;
+}

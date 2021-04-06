@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title> 
+            Inertia Electric
+        </title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+
+    <body>
+        <div class="instructions">
+           <div class="Sanjay">
+               <h1>Inertia Electric User Manual</h1>
+           </div> 
+
+           <div class="momo">
+               <h2>Introduction:</h2>
+               <p>Power Flow Studies are an essential tool needed for the successful engineer to be able to analyze and design a power system. They are necessary for planning, operating, scheduling, and exchanging power between utilities. With the many inefficiencies seen around the world due to the aging grid, the demand for a transactive approach towards system analysis is a progressive step towards a more sustainable future. 
+                For the fellow electrical engineer, this manual provides a guide to preparing data for analyzing n-bus systems and obtaining their results for study. The Power Flow tool designed by Inertia Electric uses Python for analysis to meet the growing popularity of the language, and solves the system with the best technique available, the Newton Raphson Method.  </p>
+           </div>
+
+           <div class="shajjan">
+               <div class="kaka">
+                <h2>User Input</h2>
+                <p>To successfully use our power flow tool, the data must be formatted correctly. The user will need two CSV files for upload. It is essential that the files be named lines.csv and buses.csv for proper execution of our algorithm. </p>
+               </div>
+               <div class="naruto">
+                <h3>lines.CSV</h3>
+                <p>The first file, lines.csv, will contain the impedances in per unit specified on a 100MVA base. An example is provided below. Note that the variables are case-sensitive. They must be formatted as below. The inputs are summarized in the table.</p>
+               </div>
+               <div class="picture">
+                <img src = "CSV.JPG" alt="newton" style="width:30%">
+               </div>
+               <div class="table1">
+                <img src = "TABLE1.JPG" alt="kobolt" style="width:30%">
+               </div>
+           </div>
+
+           <div class="buses">
+               <div class="shikimaru">
+                <h3>buses.CSV</h3>
+                <p>The second file, buses.csv, will contain the number of buses, which will need to be specified with only numerical values as shown below. In addition, it will need to specify the control type of the bus, the voltage magnitude if it exists, as well as the initial angles. Furthermore, the Load and Generator active and reactive powers at the bus will need to be specified according to the control type of the bus. </p>
+               </div>
+               <div class="BUSpicture">
+                <img src = "buses.JPG" alt="maxwell" style="width:30%">
+               </div>
+               <div class="table2">
+                <img src = "TABLE2.JPG" alt="vincent" style="width:30%">
+               </div>
+               <div class="daniel">
+               <p>The control type is essential. A Slack bus is specified with the code 1. The PQ bus is specified with code 0. Lastly, the PV bus is specified with code 2. 
+                When creating your data sheets on Excel, make sure to save as a Comma Separated Value file (CSV). This way, python will be able to recognize the data and conduct the mathematical analysis. 
+                The link for conducting the analysis will be given in an email. The instructions for working on the Cloud9 IDE environment should be referred to if not already. Once the files have been uploaded, hit run, and give the program some time to finish running. The user will know that the analysis was successful when they see on the left-hand side of the application, a new Excel file with the name ‘Output.xslx’. This file can then be downloaded by the user with all the desired values at each bus contained. The active and reactive powers seen at each bus, the voltage magnitude at each bus as well as its angle. 
+                If there are any problems, please see the Contact Page for additional support. 
+               </p> 
+                </div>
+           </div>
+
+        <div class="cloud9">
+            <div class="IDK">
+               <h2>Working on the Cloud9 IDE Environment</h2>
+               <p>To access Inertia Electric’s product, you must first create an Amazon Web Service (AWS) account. This process is free, and completely secure. To do so, please visit their website and how to create a root user account. Once this has been done, you can go to the contact us page and request permission to access our environment by providing your username details that we can then give permissions to. Granting permission should not take more than a couple of hours depending on when your email has been read.
+                You will know that your request has been accepted when you receive an email from our team providing your login information. You will be given a password for your first use only, and it can be changed at login. 
+                Once you have successfully logged in, there will be a search button at the top of the window. Type in ‘Cloud9 Environments’. 
+                </p>
+            </div>
+           <div class="donut">
+            <img src = "raisethebar.JPG" alt="lenz" style="width:50%">
+           </div>
+           <div class="anothersentence">
+               <p>This will take you to a new page, where the top left corner should look as below. Click on ‘Shared with you’. This will take you to a page where it will show the shared environments. </p>
+           </div>
+           <div class="danielsimg">
+            <img src = "cloud.JPG" alt="denisty" style="width:20%">
+           </div>
+           <div class="bahadur">
+            <p>Assuming you only have one shared environment, there should be one option as shown below. Click on Open IDE. Note that if you are not able to see the shared environment, you can go to the top right corner and make sure that the region is specified as Canada – Central.  </p>
+           </div>
+            <div class="naruto">
+                <img src = "button.JPG" alt="mass" style="width:8%"> 
+            </div>
+            <div class="Sakura">
+                <img src = "KJYBUS.JPG" alt="mass" style="width:18%">  
+            </div>
+            <div class="hinata">
+                <p>Congratulations! You are in the Inertia Electric Cloud 9 IDE environment.  At the top left corner you should see something as below. You can now upload files and run them. A sample is shown below. The two csv files have been uploaded and appear below. Then, we run the .py file that should already be there and ready to use. The user can access the README file for additional support. </p>
+            </div>
+            <div class="nope">
+                <img src = "sports.JPG" alt="mass" style="width:18%"> 
+            </div>
+
+            <div class="better">
+                <p>When you have received an email, it should look as below.</p>
+            </div>
+           <div class="finalpic">
+            <img src = "startrek.JPG" alt="mass" style="width:50%">
+           </div>
+           <div class="access">
+               <H1>Please Contact inertiafreeindustries@gmail.com to gain access.</H1>
+           </div>
+        </div>
+    </body>
